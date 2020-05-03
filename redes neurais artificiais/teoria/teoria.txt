@@ -1,0 +1,15 @@
+
+erro = respostaCorreta - respostaObtida
+deltasaída = Erro * DerivadaSigmoide
+deltaescondido = derivadaSigmoide * peso * deltaSaída
+
+backpropagation:
+peson+1 = (peson * momento) + (entrada * delta * taxadeAprendizagem)
+
+MEAN SQUARE ERROR
+ROOT MEAN SQUARE ERROR
+STOCHASTIC GRADIENT DESCENT
+MINI BATCH GRADIENT DESCENT
+
+
+qntDeNeuroniosEscondidos = (nentradas + nsaidas)/2
